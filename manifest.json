@@ -1,0 +1,71 @@
+{
+  "name": "AgroFlow - Plataforma Agronómica & Financiera",
+  "short_name": "AgroFlow",
+  "description": "Calculadora de flujo de fondos agropecuario con gestión de lotes, rotaciones y herramientas agronómicas. Funciona 100% offline.",
+  "start_url": "/Agroflow/index.html",
+  "scope": "/Agroflow/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0D2818",
+  "background_color": "#0D2818",
+  "lang": "es-AR",
+  "categories": [
+    "agriculture",
+    "finance",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Flujo de Fondos",
+      "short_name": "Flujo",
+      "description": "Ir directo a la calculadora de flujo de fondos",
+      "url": "/Agroflow/index.html#flujo",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Mis Lotes",
+      "short_name": "Lotes",
+      "description": "Ver y gestionar los lotes del establecimiento",
+      "url": "/Agroflow/index.html#lotes",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
