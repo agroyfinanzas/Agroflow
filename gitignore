@@ -1,0 +1,85 @@
+# ════════════════════════════════════════════════════════════
+# .gitignore - AgroFlow Cotización Insumos
+# ════════════════════════════════════════════════════════════
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnósticos
+.DS_Store
+Thumbs.db
+.env.local
+.env.*.local
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# Dependencias (si usas NPM en el futuro)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compilación y distribución
+dist/
+build/
+*.min.js
+*.min.css
+
+# Variables de entorno
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos temporales
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Cache
+.cache/
+.eslintcache
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Backup
+*.backup
+*.backup.html
+backup/
+
+# Archivos grandes (imágenes, videos)
+*.mp4
+*.mov
+*.avi
+*.psd
+*.sketch
+
+# Proyecto específico
+test-data.json
+credentials.json
+firebase-config.js
